@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0f1115;
+  color: #e8e8e8;
+}
+
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  color: #9a9a9a;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.card {
+  background: #1a1d24;
+  border: 1px solid #2a2e37;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.site {
+  font-weight: 600;
+}
+
+.status {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  text-transform: capitalize;
+}
+
+.status-awaiting_decision { background: #4a3b1a; color: #f0c674; }
+.status-approved { background: #1a4a2a; color: #7ee29a; }
+.status-denied { background: #4a1a1a; color: #f08787; }
+.status-unreachable_fallback { background: #3a1a4a; color: #cf9df0; }
+.status-default { background: #2a2e37; color: #ccc; }
+
+.transcript {
+  font-size: 14px;
+  color: #d0d0d0;
+  margin: 8px 0;
+  font-style: italic;
+}
+
+.flag {
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.flag.suspicious { color: #f08787; }
+.flag.clear { color: #7ee29a; }
+
+.actions button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.approve { background: #2e7d4f; color: white; }
+.deny { background: #a33a3a; color: white; }
+
+.empty {
+  color: #777;
+  text-align: center;
+  padding: 40px 0;
+}
