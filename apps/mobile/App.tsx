@@ -1,13 +1,15 @@
 import { useEffect, useState, useCallback } from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  Text,
-  View,
-  TouchableOpacity,
-  StyleSheet,
-  RefreshControl,
-} from 'react-native';
+  import {
+    SafeAreaView,
+    ScrollView,
+    Text,
+    View,
+    TouchableOpacity,
+    StyleSheet,
+    RefreshControl,
+    Platform,
+    StatusBar as RNStatusBar,
+  } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 
 // Same shape as apps/web/src/App.tsx — mirrors
@@ -88,7 +90,8 @@ export default function App() {
       <StatusBar style="light" />
       <Text style={styles.title}>GateGuard — Gate Companion</Text>
 
-      <ScrollView
+        <ScrollView
+        contentContainerStyle={{ paddingBottom: 40 }}
         refreshControl={<RefreshControl refreshing={refreshing} onRefresh={onRefresh} />}
       >
         {fallback.length > 0 && (
@@ -141,9 +144,13 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#0f1115', paddingHorizontal: 16, paddingTop: 12 },
-  title: { color: '#fff', fontSize: 18, fontWeight: '600', marginBottom: 12 },
-  empty: { color: '#777', textAlign: 'center', marginTop: 40 },
+    container: {
+      flex: 1,
+      backgroundColor: '#0f1115',
+      paddingHorizontal: 16,
+      paddingTop: Platform.OS === 'android' ? (RNStatusBar.currentHeight ?? 24) + 12 : 12,
+    },
+title: { color: '#fff', fontSize: 20, fontWeight: '700', marginBottom: 14, flexShrink: 1 },  empty: { color: '#777', textAlign: 'center', marginTop: 40 },
   fallbackBanner: {
     backgroundColor: '#3a1a4a',
     borderRadius: 8,
@@ -160,12 +167,12 @@ const styles = StyleSheet.create({
     borderWidth: 1,
   },
   site: { color: '#fff', fontWeight: '600', marginBottom: 6 },
-  transcript: { color: '#d0d0d0', fontStyle: 'italic', marginBottom: 6 },
-  flagBad: { color: '#f08787', marginBottom: 10, fontSize: 13 },
-  flagGood: { color: '#7ee29a', marginBottom: 10, fontSize: 13 },
+  transcript: { color: '#d0d0d0', fontStyle: 'italic', marginBottom: 8, fontSize: 15, lineHeight: 21, flexShrink: 1 },
+  flagBad: { color: '#f08787', marginBottom: 12, fontSize: 14, lineHeight: 20, flexShrink: 1 },
+  flagGood: { color: '#7ee29a', marginBottom: 12, fontSize: 14, lineHeight: 20, flexShrink: 1 },
   actions: { flexDirection: 'row', gap: 10 },
-  button: { paddingVertical: 8, paddingHorizontal: 14, borderRadius: 6 },
+  button: { flex: 1, minHeight: 48, justifyContent: 'center', alignItems: 'center', borderRadius: 8 },
   approve: { backgroundColor: '#2e7d4f' },
   deny: { backgroundColor: '#a33a3a' },
-  buttonText: { color: '#fff', fontSize: 14 },
+  buttonText: { color: '#fff', fontSize: 16, fontWeight: '600' },
 });
