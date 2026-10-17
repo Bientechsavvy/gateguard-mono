@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4ade80"/><stop offset="1" stop-color="#15803d"/></linearGradient></defs>
+<path d="M512 100 L846 224 V520 C846 740 706 888 512 966 C318 888 178 740 178 520 V224 Z" fill="url(#g)"/>
+<path d="M512 100 L846 224 V520 C846 740 706 888 512 966 C318 888 178 740 178 520 V224 Z" fill="none" stroke="#bbf7d0" stroke-opacity=".55" stroke-width="10"/>
+<circle cx="512" cy="510" r="310" fill="#0f1115"/>
+<circle cx="512" cy="510" r="310" fill="none" stroke="#bbf7d0" stroke-width="10"/>
+<circle cx="512" cy="510" r="190" fill="none" stroke="#4ade80" stroke-opacity=".45" stroke-width="6"/>
+<circle cx="512" cy="510" r="170" fill="#0b0d10"/>
+<circle cx="512" cy="510" r="170" fill="none" stroke="#bbf7d0" stroke-width="12"/>
+<path d="M434 514 L494 574 L600 446" fill="none" stroke="#fff" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"/>
+<text transform="rotate(-88.570 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">P</text>
+<text transform="rotate(-80.641 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">E</text>
+<text transform="rotate(-72.540 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">R</text>
+<text transform="rotate(-64.269 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">S</text>
+<text transform="rotate(-57.836 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">I</text>
+<text transform="rotate(-51.403 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">S</text>
+<text transform="rotate(-43.537 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">T</text>
+<text transform="rotate(-37.390 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0"> </text>
+<text transform="rotate(-31.442 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">•</text>
+<text transform="rotate(-25.494 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0"> </text>
+<text transform="rotate(-18.977 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">B</text>
+<text transform="rotate(-10.317 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">U</text>
+<text transform="rotate(-3.460 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">I</text>
+<text transform="rotate(2.590 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">L</text>
+<text transform="rotate(10.756 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">D</text>
+<text transform="rotate(17.587 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0"> </text>
+<text transform="rotate(23.535 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">•</text>
+<text transform="rotate(29.483 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0"> </text>
+<text transform="rotate(35.869 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">C</text>
+<text transform="rotate(44.575 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">O</text>
+<text transform="rotate(53.756 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">N</text>
+<text transform="rotate(62.937 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">Q</text>
+<text transform="rotate(72.004 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">U</text>
+<text transform="rotate(80.299 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">E</text>
+<text transform="rotate(88.399 512 510)" x="512" y="276.60" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="40" fill="#bbf7d0">R</text>
+<text transform="rotate(54.660 512 510)" x="512" y="770.05" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="33" fill="#bbf7d0">G</text>
+<text transform="rotate(47.240 512 510)" x="512" y="770.05" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="33" fill="#bbf7d0">B</text>
+<text transform="rotate(40.344 512 510)" x="512" y="770.05" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="33" fill="#bbf7d0">E</text>
+<text transform="rotate(33.753 512 510)" x="512" y="770.05" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="33" fill="#bbf7d0">T</text>
+<text transform="rotate(28.348 512 510)" x="512" y="770.05" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="33" fill="#bbf7d0">I</text>
+<text transform="rotate(24.217 512 510)" x="512" y="770.05" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="33" fill="#bbf7d0"> </text>
+<text transform="rotate(18.598 512 510)" x="512" y="770.05" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="33" fill="#bbf7d0">B</text>
+<text transform="rotate(12.888 512 510)" x="512" y="770.05" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="33" fill="#bbf7d0">I</text>
+<text transform="rotate(7.480 512 510)" x="512" y="770.05" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="33" fill="#bbf7d0">E</text>
+<text transform="rotate(0.299 512 510)" x="512" y="770.05" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="33" fill="#bbf7d0">N</text>
+<text transform="rotate(-7.442 512 510)" x="512" y="770.05" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="33" fill="#bbf7d0">D</text>
+<text transform="rotate(-14.597 512 510)" x="512" y="770.05" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="33" fill="#bbf7d0">E</text>
+<text transform="rotate(-21.537 512 510)" x="512" y="770.05" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="33" fill="#bbf7d0">V</text>
+<text transform="rotate(-27.200 512 510)" x="512" y="770.05" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="33" fill="#bbf7d0"> </text>
+<text transform="rotate(-32.518 512 510)" x="512" y="770.05" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="33" fill="#bbf7d0">E</text>
+<text transform="rotate(-39.698 512 510)" x="512" y="770.05" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="33" fill="#bbf7d0">N</text>
+<text transform="rotate(-47.403 512 510)" x="512" y="770.05" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="33" fill="#bbf7d0">G</text>
+<text transform="rotate(-54.854 512 510)" x="512" y="770.05" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="33" fill="#bbf7d0">R</text>
+</svg>

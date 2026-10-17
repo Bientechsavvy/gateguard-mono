@@ -58,7 +58,10 @@ export default function App() {
 
   return (
     <div className="app">
-      <h1>GateGuard</h1>
+      <h1 style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+        <img src="/logo-badge.svg" alt="" width={56} height={56} />
+        GateGuard
+      </h1>
       <p className="subtitle">
         Live visitor verification for your compound — approve or deny access
         from anywhere.
@@ -117,6 +120,10 @@ export default function App() {
             )}
           </div>
         ))}
+
+      <p style={{ textAlign: 'center', color: '#6b7280', fontSize: 13, marginTop: 32 }}>
+        Persist. Build. Conquer. · by Gbeti Biendev Engr
+      </p>
     </div>
   );
 }

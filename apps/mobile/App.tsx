@@ -8,6 +8,7 @@ import { useEffect, useState, useCallback } from 'react';
     StyleSheet,
     RefreshControl,
     Platform,
+    Image,
     StatusBar as RNStatusBar,
   } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
@@ -88,7 +89,10 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar style="light" />
-      <Text style={styles.title}>GateGuard — Gate Companion</Text>
+      <View style={styles.brand}>
+     <Image source={require('./assets/logo-mark.png')} style={styles.logo} />
+     <Text style={styles.title}>GateGuard</Text>
+   </View>
 
         <ScrollView
         contentContainerStyle={{ paddingBottom: 40 }}
@@ -137,7 +141,11 @@ export default function App() {
               </TouchableOpacity>
             </View>
           </View>
-        ))}
+                ))}
+
+        <Text style={{ textAlign: 'center', color: '#6b7280', fontSize: 12, marginTop: 16 }}>
+          Persist. Build. Conquer. · by Gbeti Biendev Engr
+        </Text>
       </ScrollView>
     </SafeAreaView>
   );
@@ -150,7 +158,19 @@ const styles = StyleSheet.create({
       paddingHorizontal: 16,
       paddingTop: Platform.OS === 'android' ? (RNStatusBar.currentHeight ?? 24) + 12 : 12,
     },
-title: { color: '#fff', fontSize: 20, fontWeight: '700', marginBottom: 14, flexShrink: 1 },  empty: { color: '#777', textAlign: 'center', marginTop: 40 },
+    brand: { flexDirection: 'row', alignItems: 'center', gap: 10 },
+  logo: { width: 40, height: 40 },
+title: { 
+  color: '#fff', 
+  fontSize: 20, 
+  fontWeight: '700', 
+  marginBottom: 14, 
+  flexShrink: 1 },  
+  empty: { 
+    color: '#777', 
+    textAlign: 'center', 
+    marginTop: 40 
+  },
   fallbackBanner: {
     backgroundColor: '#3a1a4a',
     borderRadius: 8,
@@ -166,13 +186,29 @@ title: { color: '#fff', fontSize: 20, fontWeight: '700', marginBottom: 14, flexS
     borderColor: '#2a2e37',
     borderWidth: 1,
   },
-  site: { color: '#fff', fontWeight: '600', marginBottom: 6 },
-  transcript: { color: '#d0d0d0', fontStyle: 'italic', marginBottom: 8, fontSize: 15, lineHeight: 21, flexShrink: 1 },
+  site: { 
+    color: '#fff', 
+    fontWeight: '600', 
+    marginBottom: 6 
+  },
+  transcript: { 
+    color: '#d0d0d0', 
+    fontStyle: 'italic', 
+    marginBottom: 8, 
+    fontSize: 15, 
+    lineHeight: 21, 
+    flexShrink: 1 
+  },
   flagBad: { color: '#f08787', marginBottom: 12, fontSize: 14, lineHeight: 20, flexShrink: 1 },
   flagGood: { color: '#7ee29a', marginBottom: 12, fontSize: 14, lineHeight: 20, flexShrink: 1 },
   actions: { flexDirection: 'row', gap: 10 },
   button: { flex: 1, minHeight: 48, justifyContent: 'center', alignItems: 'center', borderRadius: 8 },
   approve: { backgroundColor: '#2e7d4f' },
   deny: { backgroundColor: '#a33a3a' },
-  buttonText: { color: '#fff', fontSize: 16, fontWeight: '600' },
+  buttonText: {
+     color: '#fff', 
+     fontSize: 16, 
+     fontWeight: '600' 
+    },
+    
 });
